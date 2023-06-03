@@ -70,10 +70,22 @@ nav li{
     transition: 1s;
 }
 
-button {
+.chat {
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(216, 140, 192);
+}
+button {
+    position: relative;
     background-color: rgb(182, 235, 210);
     padding: 5px;
     border-radius: 5px;
+    top: 30px;
+    right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea {
+    margin-left: auto;
+    margin-right: auto;
 }
